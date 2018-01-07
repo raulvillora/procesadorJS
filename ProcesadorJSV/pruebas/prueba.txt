@@ -9,8 +9,11 @@ z = "Esto es un string";
 if (y < 3 && y < 10) {
   if (y < 10) {
       prompt(y);
+      if ( x ) {
+      	x = true&&false;
+      }
   }
-	y /= 3;
+	y =/ 3;
 	x = true;
  }
  else {
